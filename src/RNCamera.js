@@ -143,6 +143,7 @@ type TrackedBarcodeFeature = {
   },
   data: string,
   dataRaw: string,
+  dataHex?: string,
   type: BarcodeType,
   format?: string,
   addresses?: {
