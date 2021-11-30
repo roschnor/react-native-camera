@@ -147,6 +147,7 @@ export interface Constants {
 export interface BarCodeReadEvent {
   data: string;
   rawData?: string;
+  rawHex?: string;
   type: keyof BarCodeType;
   /**
    * @description For Android use `{ width: number, height: number, origin: Array<Point<string>> }`
