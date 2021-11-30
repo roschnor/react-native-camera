@@ -109,6 +109,8 @@
 
         NSString *rawValue = barcode.rawValue;
         NSString *displayValue = barcode.displayValue;
+        NSString *hexValue = barcode.rawValue;
+        [resultDict setObject:hexValue forKey:@"dataHex"];
         [resultDict setObject:rawValue forKey:@"dataRaw"];
         [resultDict setObject:displayValue forKey:@"data"];
 
