@@ -303,6 +303,7 @@ export interface Barcode {
   };
   data: string;
   dataRaw: string;
+  dataHex?: string;
   type: BarcodeType;
   format?: string;
   addresses?: {
